@@ -30,7 +30,7 @@
 
         <receiver
             android:name=".BootBroadcastReceiver"
-            android:exported="false"
+            android:exported="true"
             android:directBootAware="true">
             <intent-filter>
                 <action android:name="android.intent.action.PRE_BOOT_COMPLETED" />
